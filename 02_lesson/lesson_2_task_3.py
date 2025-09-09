@@ -1,6 +1,7 @@
-import math
+from math import ceil
+
 def square(a):
     area = a * a
-    return math.ceil (area)
-a = int(input("Введите значение а =  "))
+    return ceil (area)
+a = float(input("Введите значение а =  "))
 print(f"Площадь квадрата равна {square(a)}")
