@@ -1,0 +1,2 @@
+BASE_URL = "https://yougile.com"
+API_TOKEN = "1762960303455_a25881b8800763040fadf362b003d0f68c84e0d5e86aaf83eef2912c7cbd1a21"  
