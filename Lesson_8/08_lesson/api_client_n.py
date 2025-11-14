@@ -1,5 +1,4 @@
 import requests
-
 from config import BASE_URL, API_TOKEN
 
 class YougileAPI:
@@ -17,7 +16,6 @@ class YougileAPI:
     def update_project(self, project_id, new_name):
         data = {"title": new_name}
         return requests.put(f"{self.base_url}/{project_id}", json=data, headers=self.headers)
- 
  
     def get_project(self, project_id):
         return requests.get(f"{self.base_url}/{project_id}", headers=self.headers)
